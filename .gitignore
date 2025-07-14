@@ -50,6 +50,41 @@ iOSInjectionProject/
 ## Xcode project
 *.xcodeproj/project.xcworkspace/
 *.xcodeproj/xcshareddata/
+*.xcworkspace/
+
+## Xcode build products
+*.app
+*.dSYM
+*.dSYM.zip
+*.ipa
+
+## Flutter specific
+**/Flutter/Generated.xcconfig
+**/Flutter/flutter_export_environment.sh
+bitchat_flutter/build/
+bitchat_flutter/ios/
+bitchat_flutter/android/
+bitchat_flutter/linux/
+bitchat_flutter/macos/
+bitchat_flutter/windows/
+bitchat_flutter/web/
+bitchat_flutter/test/
+bitchat_flutter/pubspec.lock
+bitchat_flutter/.flutter-plugins
+bitchat_flutter/.flutter-plugins-dependencies
+bitchat_flutter/.packages
+bitchat_flutter/.dart_tool/
+
+## IntelliJ IDEA
+bitchat_flutter.iml
+bitchat_flutter/.idea/
+bitchat_flutter/.idea/*
+*.iml
+.idea/
+.idea/*
+
+## Flutter crash logs
+flutter_*.log
 
 ## Python
 __pycache__/
@@ -59,3 +94,31 @@ __pycache__/
 ## Temporary files
 *.tmp
 *.temp
+
+## VS Code
+.vscode/settings.json
+.vscode/launch.json
+.vscode/tasks.json
+.vscode/.ropeproject/
+
+## IDE files
+*.swp
+*.swo
+*~
+
+## Log files
+*.log
+
+## OS generated files
+Thumbs.db
+ehthumbs.db
+
+## Archives
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
